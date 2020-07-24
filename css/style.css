@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+
+html,body
+{
+    margin: 0%;
+    padding: 0%;
+}
+*
+{
+    box-sizing: border-box;
+}
+html{position:relative;min-height:100%}body{overflow-x:hidden}  html,body
+{
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+body::-webkit-scrollbar
+{
+    height: 10px;
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color:rgb(223, 190, 47);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track
+{
+    background-color:rgb(5, 5, 5);
+}
+.main1
+{
+    width: 100%;
+    height: 100vh;
+    /* border: 4px solid red; */
+    position: relative;
+    background-image: url('../images/img4.webp');
+    background-size: 100% 100%;  
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6); 
+
+}
+.main2
+{
+    width: 100%;
+    height: 100vh;
+    /* border: 4px solid red; */
+    position: relative;
+    background-color: black;
+
+    
+
+}
+.main3
+{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    position: relative;
+}
+.image1
+{
+    height: 100%;
+    width: 25%;
+    
+    
+    z-index: 50;
+    
+
+    background-image: url('../images/img1.webp');
+    filter: grayscale(70%); 
+}
+.image2
+{
+    height: 100%;
+    width: 25%;
+    
+    background-image: url('../images/img2.webp');
+    filter: grayscale(70%); 
+    background-position: center;
+    z-index: 100;
+}
+.image3
+{
+    height: 100%;
+    width: 25%;
+
+    background-image: url('../images/img3.webp');
+    filter: grayscale(70%); 
+    background-position: center;
+    z-index: 100;
+}
+.image4
+{
+    height: 100%;
+    width: 25%;
+    
+    background-image: url('../images/img4.webp');
+    filter: grayscale(70%); 
+    background-position: center;
+    z-index: 100;
+}
+.h-1
+{
+    height: 10%;
+    width: 70%;
+    
+    margin-top: 13%;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+}
+.below
+{
+    width: 2%;
+    height:  40%;
+    
+    
+    color: white;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 5%;
+    z-index: 100000;
+    writing-mode: vertical-lr;
+   font-size: 15px;
+   font-family: 'UnifrakturMaguntia', cursive;
+    transform: rotate(180deg);
+}
+
+.main4
+{
+    width: 100%;
+    height: 80vh;
+    /* border: 4px solid red; */
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+.logo5
+{
+    width: 15%;
+    height: 8%;
+    /* border: 4px solid red; */
+    left: 15%;
+    bottom: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+}
+.nav
+{
+    width: 10%;
+    height: 100%;
+    /* border: 4px solid red; */
+    background-color: black;
+    position: absolute;
+    position: relative;
+}
+.logo
+{
+    width: 15%;
+    height: 8%;
+    /* border: 4px solid red; */
+    left: 15%;
+    top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+}
+.heading
+{
+    width: 40%;
+    height: 15%;
+    /* border: 4px solid red; */
+    left: 20%;
+    font-family: 'UnifrakturMaguntia', cursive;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+}
+
+.reun
+{
+    width: 100%;
+    height: 10%;
+    /* border: 4px solid red; */
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+.logo1
+{
+    width: 15%;
+    height: 10%;
+    /* border: 4px solid red; */
+    left: 10%;
+    top: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+.containt
+{
+    width: 30%;
+    height: 50%;
+    /* border: 4px solid red; */
+    left: 10%;
+    top: 30%;
+      font-family: 'UnifrakturMaguntia', cursive;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+   font-size: 18px;
+    color: white;
+    position: absolute;
+}
+.summm{
+    font-size: 15px;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+.img
+{
+    width: 50%;
+    height: 70%;
+    /* border: 4px solid red; */
+    background-image: url('../images/main2.webp');
+    background-size: 100% 100%;
+    right: 0%;
+    top: 15%;
+    position: absolute;
+    z-index: 100;
+    filter: brightness(100%);
+}
+.message
+{
+    z-index: 1000 !important;
+}
+.dom
+{
+    width: 100%;
+    flex-direction: row;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'UnifrakturMaguntia', cursive;
+ 
+   
+}
+.dom1
+{
+    width: max-content;
+    height: 100%;
+    margin: 20px;
+    left: 10%;
+    /* border: 4px solid red; */
+    display: inline-block;
+    position: relative;
+
+}
+.navv
+{
+    width: 100%;
+    height: 15%;
+    /* border: 4px solid red; */
+    bottom: 0%;
+    position: absolute;
+  
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.sum
+{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    left: 10%;
+    font-size: 60px;
+    position: relative;
+    display: inline-block;
+    /* border: 4px solid red; */
+    
+    
+ 
+}
+.summ
+{ 
+    font-size: 20px;
+    cursor: pointer;
+}
+.sum1
+{
+    width: 100%;
+   
+    /* border: 4px solid red; */
+    display: inline-block;
+
+}
+.logo3
+{
+    width: 20%;
+    height: 8%;
+    border: 4px solid red;
+
+
+}
+.icon
+{
+    width: 80%;
+    height: 100%;
+ 
+    position: absolute;
+    right: 0;
+}
+
+.icon1
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+   text-decoration: none;
+   right: 0%;
+  
+}
+.contact{
+    width: 60%;
+    height: 60%;
+    /* border: 4px solid red; */
+    top: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    z-index: 1000000000000;
+
+}
+.heading2
+{
+    width: 40%;
+    height: 50%;
+      
+    left: 45%;
+    top: 23%;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+}
+
+    .logo4{
+        width: 20%;
+        height: 8%;
+        top: 10%;
+        left: 10%;
+        font-size: 40px;
+        /* border: 4px solid red; */
+       color: white;
+        position: absolute;
+        font-family: 'UnifrakturMaguntia', cursive;
+    }
+   .downbox{
+       width: 20%;
+       height: 8%;
+       bottom: 10%;
+       left: 10%;
+       /* border: 4px solid red; */
+       position: absolute;
+       color: white;
+       font-size: 20px;
+   }
+  .button{
+      width: 5%;
+      height: 8%;
+      /* border: 4px solid red; */
+      left: 20%;
+      top: 50%;
+      position: absolute;
+      z-index: 200;
+  }
+  .mot
+{
+     
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid red; */
+    margin: 20px;
+
+    color: aliceblue;
+
+    font-size: 20px;
+   
+  
+   
+
+ 
+   
+}
+a{
+    color: rgb(134, 134, 134) !important;
+    text-decoration: none;
+}
+a:hover{
+    color: azure !important;
+}
+.mot1
+{
+
+    width: 2%;
+    height:  50%;
+    
+    position: relative;
+    color: white;
+    left: 56.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    text-decoration: sideways;
+    text-align: right;
+   
+    transform: rotate(180deg);
+    
+}
+.menu
+{
+    width: 100%;
+    height: 7%;
+    /* border: 4px solid red; */
+    display: block;
+    
+    
+    color: wheat;
+    
+   
+}
+.vr
+{
+    height: 380%;
+    width: 0%;
+    border: 0.1px solid rgba(80, 80, 80, 0.3);
+    z-index: 10;
+    position: absolute;
+    left: 10%;
+    
+}
+.vr1
+{
+    height: 380%;
+    width: 0%;
+    border: 0.1px solid rgba(95, 95, 95,0.3);
+    z-index: 10;
+    position: absolute;
+    left: 30%;
+    
+}
+.vr2
+{
+    height: 380%;
+    width: 0%;
+    border: 0.1px solid rgba(95, 95, 95,0.3);
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    
+}
+.vr3
+{
+    height: 380%;
+    width: 0%;
+    border: 0.1px solid rgba(95, 95, 95,0.3);
+    z-index: 10;
+    position: absolute;
+    right: 30%;
+    
+}
+.vr4
+{
+    height: 380%;
+    width: 0%;
+    border: 0.1px solid rgba(95, 95, 95,0.3);
+    z-index: 10;
+    position: absolute;
+    right: 10%;
+    
+}
+.fa-bars
+{
+    font-size: 30px;
+}
+
+.btn{
+    background: rgb(190, 165, 50) ;
+    width: 300%;
+    border-radius: 20px;
+    height: 70%;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: 'UnifrakturMaguntia', cursive;;
+     z-index: 1;
+}
+.btn1
+{
+    background: rgb(190, 165, 50) ;
+    width: 100%;
+    border-radius: 20px;
+    height: 70%;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: 'UnifrakturMaguntia', cursive;;
+     z-index: 100000;
+     cursor: pointer;
+}
